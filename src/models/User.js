@@ -22,6 +22,7 @@ const userSchema = new Schema(
     ],
     associationName: {
       type: String,
+      unique: true,
     },
   },
   {
